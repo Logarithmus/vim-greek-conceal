@@ -8,9 +8,6 @@ let g:loaded_greek_conceal = 1
 let s:save_cpo = &cpo
 set cpo&vim
 
-setlocal conceallevel=2
-setlocal concealcursor=nc
-
 if !exists('g:greek_delta_alt')
 	let g:greek_delta_alt = 1
 endif
